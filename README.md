@@ -1,13 +1,6 @@
-# CSE330
+# Study With Me Website
 
-464319
-466622
-
-
-Approved by Julia Downey
-Rubric: Study Community Platform
-
-The idea for our creative project is to create a community-based study website. Users can add their own study materials and notes to their profile, and create and join study “communities” where they can share these materials.
+This is a community-based study website built with React, Express.js, and MongoDB. Users can add their own study materials and notes to their profile, and create and join study “communities” where they can share these materials.
 
 To view a sample user account with realistic-looking content, log in with username 'sophia' and password 'sophia'. Click on the 'Mrs. McGreal English Project' channel to see the contents of a channel on display. 
 
