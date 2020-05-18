@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+  margin-top: 3vh;
+}
+
+.App-title {
+  text-shadow: 3px 3px 5px rgba(128, 128, 128, 0.521);
+  font-style: oblique;
+  text-align: center;
+
+}
+.App-header {
+  background-color: #2e62ca;
+  min-height: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+

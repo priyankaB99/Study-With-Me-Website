@@ -1,0 +1,135 @@
+.Channel {
+    background-color: #ffffff;
+    min-height: 400px;
+    overflow-y: auto;
+    border-radius: 5px;
+}
+#loading {
+    display: inline-block;
+    color: orangered; 
+} 
+.channelButtons {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    margin: 1%;
+}
+.Channel-title {
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    border: 2px solid #2e62ca;
+}
+
+#channelFeed {
+    width: 40%;
+    margin: 2%;
+    float: left;
+}
+#todo {
+    width: 21%;
+    float: right;
+    margin: 2%;
+    background-color: #2e62ca;
+    color: white;
+    border-radius: 6px;
+    padding: 1%;
+}
+#deadlines {
+    width: 23%;
+    margin: 2%;
+    float: left;
+    background-color: #2e62ca;
+    color: white;
+    border-radius: 6px;
+    padding: 1%;
+}
+
+.authordiv:hover, .authordiv:focus {
+    background-color: #b6b4b438;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.post {
+    background-color: #2e62ca;
+    color: white;
+    border-radius: 6px;
+    padding: 3%;
+    flex: auto;
+    overflow-wrap: anywhere;
+}
+.deadlineDiv {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    padding: 3%;
+    flex: auto;
+    overflow-wrap: anywhere;
+}
+.deadlineDiv:hover, .deadlineDiv:focus {
+    background-color: #b6b4b438;
+    border-radius: 11px;
+    cursor: pointer;
+}
+.toDo {
+    background-color: grey;
+    color: white;
+    border-radius: 6px;
+    padding: 3%;
+    flex: auto;
+    overflow-wrap: anywhere;
+}
+
+.toDo:hover, .toDo:focus {
+    background-color: #2e62ca;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+
+.comp {
+    background-color: rgb(80, 190, 89);
+    color: white;
+    border-radius: 6px;
+    padding: 3%;
+    flex: auto;
+    overflow-wrap: anywhere;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;/* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.5);
+}
+/* Modal Content/Box */
+.modal-content {
+    background-color:#2e62ca;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+    color: white;
+}
+#createPostContent {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: left;
+}
