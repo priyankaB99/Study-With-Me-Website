@@ -4,7 +4,13 @@ This is a community-based study website built with React, Express.js, and MongoD
 
 To view a sample user account with realistic-looking content, log in with username 'sophia' and password 'sophia'. Click on the 'Mrs. McGreal English Project' channel to see the contents of a channel on display. 
 
-We will be using React for the front-end of the site, Express.JS to handle the backend, and MongoDB as our database.
+We used React for the front-end of the site, Express.JS to handle the backend, and MongoDB as our database.
+
+To view locally:
+- Clone repo
+- Run `npm install`
+- In the overall repo folder, run `npm start` to start the backend server
+- In the "client" folder (where our React project exists), run `npm install`, `npm run build`, followed by `npm start`
 
 5 pts: Rubric
 - Approved by TA and submitted on time (5pts)

@@ -50,11 +50,11 @@
   },
   "proxy": {
     "/socket": {
-      "target": "http://localhost:3456",
+      "target": "localhost:3456/",
       "ws": true
     },
     "/api": {
-      "target": "http://localhost:3456",
+      "target": "localhost:3456/",
       "secure": false
     }
   }

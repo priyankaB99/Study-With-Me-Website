@@ -27,7 +27,7 @@ class LogRegBox extends Component {
             username: data.get('username'),
             password: data.get('password')
         };
-        
+        console.log("got to here")
         try { //sent register info to backend
             const response = await axios.post('/api/users/register', userInfo);
             //send to parent in callback function
